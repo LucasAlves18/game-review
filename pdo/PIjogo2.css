@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(233, 233, 233) ;
+    text-decoration: none;
+    font-size: large;
+}
+
+header{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    float: left;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    
+    } 
+    
+
+
+
+.fantasma{
+    height: 100px;
+    width: 130px;
+    margin-left: 40px;
+    background-image:url("./img/Gaming.png");
+   
+    
+
+}
+
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    
+}
+.titulo{
+    margin-top: 5%;
+    margin-left: 50px;
+    font-size: xx-large;
+}
+
+.jogo{
+    display: inline-block;
+    padding-top: 5%;
+   
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.historia .container{
+    background-color: white;
+}
+
+.descricao-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+.texto-descricao{
+    width: 65%;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+.img-descricao{
+    width: 25%;
+}
+
+.img-gameplay{
+    width: 65%;
+}
+
+.gameplay{
+    padding: 50px 0;
+}
+
+@media screen and (max-width:840px) {
+    .texto-descricao{
+        width: 90%;
+    }
+    
+    .img-descricao{
+        width: 100%;
+    }
+    
+    .img-gameplay{
+        width: 90%;
+    }
+
+    .descricao-content{
+        display: flex;
+        flex-direction: column;
+    }
+}

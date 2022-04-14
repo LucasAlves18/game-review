@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%
+}
+
+body{
+    background-color: rgb(233, 233, 233) ;
+    text-decoration: none;
+    font-size: large;     
+       
+}
+@media screen and (max-widht: 768px) {
+        section, aside{
+        width:100%;
+        padding: 0%;
+    }    
+}
+
+@media screen and (max-widht: 600px) {
+    section, aside{
+        width:0%;
+        padding: 0%;
+        float: 0;
+        justify-content: center;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+  
+    .row {
+        max-width: 85rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    float: left;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(255, 254, 254);
+} 
+
+.fantasma{
+    height: 100px;
+    width: 130px;
+    margin-left: 40px;
+    background-image:url("./img/Gaming.png");
+}
+
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    
+}
+
+.galeria-content{
+    text-align: center;
+}
+
+.jogo-galeria{
+    width: 20%;
+    display: inline-block;
+    padding: 20px;
+}
+
+footer{
+    padding: 40px;
+    background-color: rgb(123, 123, 123);
+    text-align: center;
+    color: rgb(41, 29, 49);
+}
+
+@media screen and (max-width:1240px) {
+    .jogo-galeria{
+        width: 30%;
+        display: inline-block;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .jogo-galeria{
+        width: 40%;
+        display: inline-block;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .jogo-galeria{
+        width: 60%;
+        display: inline-block;
+        padding: 20px;
+    }
+}
+    
+  
+
+
+
+
+
+
+
